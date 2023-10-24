@@ -1,33 +1,37 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import acornPic from "./assets/acorn-woodpecker.jpg";
+import secretaryPic from "./assets/secretary-bird.png";
+import ruddyPic from "./assets/ruddy-duck.png";
 import "./App.css";
+import Headline from "./Headline.jsx";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h1>Louisa & Wesley&apos;s bird blog</h1>
+
+        <Headline
+          img={acornPic}
+          title="Acorn Woodpecker"
+          subtitle="certainly one of the birds ever"
+          origin="Southwest US"
+          url="./bird.html"
+        />
+
+        <Headline
+          img={secretaryPic}
+          title="Secretary Bird"
+          subtitle="the erm... the uh... secretary bird is a large, mostly terrestrial bird of prey"
+          origin="Africa"
+        />
+
+        <Headline
+          img={ruddyPic}
+          title="Ruddy Duck"
+          subtitle="look at this doodad"
+          origin="North America"
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }
