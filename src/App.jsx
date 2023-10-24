@@ -5,7 +5,7 @@ import "./App.css";
 // import Article from "./Article";
 // import secImg from "./images/sec1.jpg";
 // import secretarybirdText from "./texts/sec.js";
-// import Headline from "./Headline.jsx";
+import Headline from "./Headline.jsx";
 
 function App() {
   // return Article({
