@@ -6,7 +6,7 @@ import secretaryPic from "./assets/secretary-bird.png";
 import ruddyPic from "./assets/ruddy-duck.png";
 import "./App.css";
 import Headline from "./Headline.jsx";
-import Secretarybird from "./Birds.jsx";
+import { Secretarybird, AcornWoodpecker } from "./Birds.jsx";
 
 function App() {
   return (
@@ -43,6 +43,7 @@ function App() {
             }
           />
           <Route path="/secretary-bird" element={<Secretarybird />} />
+          <Route path="/acorn-woodpecker" element={<AcornWoodpecker />} />
         </Routes>
       </BrowserRouter>
     </>

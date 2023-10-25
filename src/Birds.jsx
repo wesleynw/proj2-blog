@@ -1,8 +1,10 @@
 import Article from "./Article";
 import secretarybirdImg from "./images/secretarybird.jpg";
+import acornwoordpeckerImg from "./images/acorn_woodpecker.jpg";
 import secretarybirdText from "./texts/sec";
+import acornwoodpeckerText from "./texts/acorn_woodpecker";
 
-function Secretarybird() {
+export function Secretarybird() {
   return (
     <Article
       title="Secretarybird"
@@ -15,7 +17,18 @@ function Secretarybird() {
   );
 }
 
-export default Secretarybird;
+export function AcornWoodpecker() {
+  return (
+    <Article
+      title="Acorn Woodpecker"
+      image={acornwoordpeckerImg}
+      description={acornwoodpeckerText}
+      author="Louisa Ng"
+      date="October 25, 2023"
+      backgroundColor="#A88569"
+    />
+  );
+}
 
 // return Article({
 //   title: "Secretarybird",
