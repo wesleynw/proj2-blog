@@ -25,7 +25,7 @@ export function AcornWoodpecker() {
       title="Acorn Woodpecker"
       image={acornwoordpeckerImg}
       description={acornwoodpeckerText}
-      author="Louisa Ng"
+      author="Wesley Weisenberger"
       date="October 25, 2023"
       backgroundColor="#A88569"
     />
