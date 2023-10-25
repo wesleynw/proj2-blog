@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import PropTypes from "prop-types";
 
 function Article({ title, image, description, author, date, backgroundColor }) {
   useEffect(() => {
@@ -30,14 +31,13 @@ function Article({ title, image, description, author, date, backgroundColor }) {
   );
 }
 
-// return Article({
-//   title: "Secretarybird",
-//   image: secImg,
-//   description: secretarybirdText,
-//   author: "John Doe",
-//   date: "2021-01-01",
-//   backgroundColor: "#697827",
-// });
-
-//
 export default Article;
+
+Article.propTypes = {
+  title: PropTypes.string,
+  image: PropTypes.image,
+  description: PropTypes.string,
+  author: PropTypes.string,
+  date: PropTypes.string,
+  backgroundColor: PropTypes.string,
+};

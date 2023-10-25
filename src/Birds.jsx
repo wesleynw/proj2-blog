@@ -44,12 +44,3 @@ export function RuddyDuck() {
     />
   );
 }
-
-// return Article({
-//   title: "Secretarybird",
-//   image: secImg,
-//   description: secretarybirdText,
-//   author: "John Doe",
-//   date: "2021-01-01",
-//   backgroundColor: "#697827",
-// });

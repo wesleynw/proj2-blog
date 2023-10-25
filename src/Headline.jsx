@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-// import { Link } from "react-router-dom";
 
 function Headline({ img, title, subtitle, origin, url }) {
   return (
@@ -11,13 +10,7 @@ function Headline({ img, title, subtitle, origin, url }) {
           </div>
         </a>
         <div className="article-texts">
-          <h1>
-            {title}
-            {/* <a href={url}>{title}</a> */}
-            {/* <nav>
-              <Link to={url}>{title}</Link>
-            </nav> */}
-          </h1>
+          <h1>{title}</h1>
           <p className="article-origin">{origin}</p>
           <p className="subtitle">{subtitle}</p>
         </div>
