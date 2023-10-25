@@ -1,4 +1,5 @@
 function Article({ title, image, description, author, date, backgroundColor }) {
+  console.log("Article");
   return (
     <div
       style={{
@@ -32,4 +33,5 @@ function Article({ title, image, description, author, date, backgroundColor }) {
 //   backgroundColor: "#697827",
 // });
 
+//
 export default Article;
