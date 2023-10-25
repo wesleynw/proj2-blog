@@ -1,0 +1,20 @@
+const text = `The ruddy duck (Oxyura jamaicensis) is a duck from North America and one of the stiff-tailed ducks. The genus name is derived from Ancient Greek oxus, "sharp", and oura, "tail", and jamaicensis is "from Jamaica". 
+
+The ruddy duck was formally described in 1789 by the German naturalist Johann Friedrich Gmelin in his revised and expanded edition of Carl Linnaeus's Systema Naturae. He placed it with the other ducks, geese and swans in the genus Anas and coined the binomial name Anas jamaicensis. Gmelin based his description on the "Jamaica shoveler" that had been described in 1785 by the English ornithologist John Latham from a specimen that he had received from Jamaica. The ruddy duck is now placed with five other species in the genus Oxyura that was introduced in 1828 by the French naturalist Charles Lucien Bonaparte. The genus name is derived from Ancient Greek oxus, meaning "sharp", and oura meaning "tail". The specific epithet jamaicensis means "from Jamaica". The Andean duck was formerly considered to be conspecific with the ruddy duck but with the two species split, the ruddy duck is monotypic: no subspecies are recognised.
+
+These are small, compact ducks with stout, scoop-shaped bills, and long, stiff tails they often hold cocked upward. They have slightly peaked heads and fairly short, thick necks. Male ruddy ducks have blackish caps that contrast with bright white cheeks. In summer, they have rich chestnut bodies with bright blue bills. In winter, they are dull gray-brown above and paler below with dull gray bills. Females and first-year males are brownish, somewhat like winter males but with a blurry stripe across the pale cheek patch. In flight, ruddy ducks show solidly dark tops of the wings.
+
+Their breeding habitat is marshy lakes and ponds. They nest in dense marsh vegetation near water. The female builds the nest out of grass, locating it in tall vegetation to hide it from predators. A typical brood contains 5 to 15 ducklings. Pairs form each year.
+
+They are migratory and winter in coastal bays and unfrozen lakes and ponds.
+
+These birds dive and swim underwater. They mainly eat seeds and roots of aquatic plants, aquatic insects and crustaceans. 
+
+Ruddy ducks were imported into the UK in 1948 by conservationist Sir Peter Scott. As a result of escapes from wildfowl collections in the late 1950s, they became established in Great Britain, from where they spread into Europe. By the year 2000, the population had increased to around 6,000 individuals. This duck's aggressive courting behavior and willingness to interbreed with the endangered native white-headed duck (Oxyura leucocephala), of southern Europe, caused concern amongst Spanish conservationists. Due to this, a controversial scheme to extirpate the ruddy duck as a British breeding species started; there have also been culling attempts in other European countries.
+
+By March 2012 a culling program in the UK, supported by the RSPB, had killed 6,500, at a cost of £5m (£769 per bird). In 2003 the BBC had reported the cost of killing each bird at £915. In 2012 Lee Evans, founder of the British Birding Association, claimed "The cull cannot succeed now. There are hundreds of ruddy ducks on the continent which will not be killed so the birds will continue to breed. There's never been any proof, anyway, that the British population has ever interbred with the Spanish ducks". By early 2014, the cull had reduced the British population to about 20–100, down from a peak of about 5,500 in 2000. According to Animal Aid, in the UK the cost of hunting down the last few ruddy ducks was £3,000 per bird. They advised "If you see one, don’t tell anyone. Even bird groups will tell the authorities and those birds may be killed".
+
+In Europe, the Ruddy duck is included since 2016 in the list of Invasive Alien Species of Union concern (the Union list). This implies that this species cannot be imported, bred, transported, commercialized, or intentionally released into the environment in the whole of the European Union. 
+`;
+
+export default text;
