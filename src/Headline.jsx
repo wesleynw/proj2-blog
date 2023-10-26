@@ -4,7 +4,7 @@ function Headline({ img, title, subtitle, origin, url }) {
   return (
     <>
       <div className="article-bg">
-        <a href={url} rel="noreferrer" target="_blank">
+        <a href={url}>
           <div className="article-img-container">
             <img src={img} />
           </div>
