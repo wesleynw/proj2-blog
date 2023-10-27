@@ -9,7 +9,7 @@ import ruddyduckText from "./texts/ruddy_duck";
 export function Secretarybird() {
   return (
     <Article
-      title="Secretarybird"
+      title="Secretary Bird"
       image={secretarybirdImg}
       description={secretarybirdText}
       author="Louisa Ng"
